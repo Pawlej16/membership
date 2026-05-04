@@ -29,4 +29,5 @@ public class GymMembershipPlan extends MembershipPlan implements Freezable {
     public String toString() {
         return super.toString().replace("MembershipPlan{", "GymMembershipPlan{") +
                 ", entriesPerMonth=" + entriesPerMonth + ", saunaAccess=" + saunaAccess + "}";
+    }
 }

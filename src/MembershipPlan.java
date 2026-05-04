@@ -45,6 +45,6 @@ public abstract class MembershipPlan implements Billable {
     @Override
     public String toString() {
         return "MembershipPlan " + planCode + " " + clientName + " " +
-                months + " " + baseMonthlyFee + " " + autoRenew + "."
+                months + " " + baseMonthlyFee + " " + autoRenew + ".";
     }
 }
